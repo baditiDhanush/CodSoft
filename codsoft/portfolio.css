@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+body{
+    background-color: rgb(240, 243, 255);
+}
+header{
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(33, 25, 81);
+    margin-left: -45px;    
+
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30rem;
+    padding-left: 250px;
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: rgb(33, 25, 81);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+a:hover{
+    color: rgb(21, 245, 186);
+    background-color: rgb(33, 25, 81);
+    box-shadow: 0px 0px 7px rgb(203, 203, 203);
+}
+#about{
+    padding: 20px 100px; 
+    font-weight: 500;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 550px;
+}
+img{
+    margin-left: 40px;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+}
+.text{
+    font-size: 50px;
+    color: rgb(33, 25, 81);
+}
+.subtext{
+    margin-top: 20px;
+    width: 700px;
+    text-align: justify;
+    padding: 10px 0px;
+}
+footer{
+    color: rgb(255, 255, 255);
+    padding: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(33, 25, 81);
+    backdrop-filter: blur(20px);
+}
+.links{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.li{
+    color: white;
+}
+.li:hover{
+    background-color: transparent;
+    box-shadow: none;
+    color: rgb(21, 245, 186);
+}
+#skills{
+    padding: 0px 150px;
+   
+}
+.skill-text{
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(33, 25, 81);
+}
+.skill-subtext{
+    padding: 50px 0px;
+    font-weight: 500;
+    width: 1000px;
+    text-align: justify;
+}
+.project{
+    margin-top: 30px;
+    padding: 0px 150px;
+}
+.sub{
+    margin-right: 50px;
+    width: 400px;
+    height: 300px;
+}
+.sub1{
+    margin-left:50px;
+    width: 400px;
+    height: 300px;
+    
+}
+.pj-desc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.pj-subtext{
+    text-align: justify;
+    width: 550px;
+}
+.cv{
+    margin-left: 550px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    font-weight: 500;
+
+}
